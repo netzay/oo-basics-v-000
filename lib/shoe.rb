@@ -15,4 +15,5 @@ class Shoe
     shoe.condition = new
   end 
 end
+shoe = Shoe.new
 
