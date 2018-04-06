@@ -12,8 +12,9 @@ class Shoe
   
   def cobble
     "Your shoe is as good as new!"
-    shoe.condition = new
   end 
 end
 shoe = Shoe.new
+shoe.condition = new
+
 
