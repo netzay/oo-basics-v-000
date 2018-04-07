@@ -14,8 +14,7 @@ class Shoe
     puts "Your shoe is as good as new!"
   end 
 end
-new_shoe = Shoe.new("Brand")
-shoe.condition = "new"
+
 
 
 
