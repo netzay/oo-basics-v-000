@@ -12,10 +12,11 @@ class Shoe
   
   def cobble
     puts "Your shoe is as good as new!"
-    shoe.condition = "new"
   end 
 end
 new_shoe = Shoe.new("Brand")
+shoe.condition = "new"
+
 
 
 
